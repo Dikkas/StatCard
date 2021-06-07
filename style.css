@@ -45,7 +45,7 @@ p{
     justify-content: center;
 
     max-width: 350px;
-    margin: 5rem auto;
+    margin: 2rem auto;
     background-color: var(--clr-desblue);
     border-radius: 0.5rem;
     overflow: hidden;
@@ -96,12 +96,17 @@ p{
 
 @media screen and (min-width: 1000px) {
     .info{
+        text-align: left;
         width: 500px;
         height: 420px;
     }
 
     .title, .stat{
+        text-align: left;
         margin: 4rem 4rem 1rem 4rem;
+    }
+    p{
+        text-align: left;
     }
     
     .stat{
@@ -118,6 +123,7 @@ p{
     .container{    
         max-width: 1000px;
         text-align: left;
+        margin: 15rem auto;
     }
 
     .image{
