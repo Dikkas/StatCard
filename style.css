@@ -54,6 +54,7 @@ p{
 
 .info{
     width: 350px;
+    min-width: 350px;
 }
 
 .title, .stat{
@@ -77,6 +78,7 @@ p{
     background-size: cover;
     background-repeat: no-repeat;
     width: 350px;
+    min-width: 350px;
     height: 250px;
 }
 
